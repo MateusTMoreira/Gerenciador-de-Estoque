@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastros - Droga Lar</title>
+    <style>
+        body {
+            background-color: #00A0FA; /* Cor de fundo azul */
+            color: white; /* Cor das letras branca */
+            display: flex; /* Usar flexbox para centralização */
+            flex-direction: column; /* Organizar itens em coluna */
+            justify-content: center; /* Centralizar horizontalmente */
+            align-items: center; /* Centralizar verticalmente */
+            height: 100vh; /* Altura total da viewport */
+            margin: 0; /* Remover margens padrão */
+            font-family: Arial, sans-serif; /* Fonte padrão */
+            text-align: center; /* Centralizar o texto */
+        }
+
+        .title-container {
+            background-color: white; /* Cor de fundo branco */
+            color: #00A0FA; /* Cor do texto no título */
+            padding: 10px; /* Espaçamento interno */
+            border-radius: 8px; /* Bordas arredondadas */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra ao redor da div */
+            width: 300px; /* Ocupa toda a largura disponível */
+            max-width: 500px; /* Limita a largura máxima */
+            box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+            margin-bottom: 30px; /* Distância para o próximo elemento */
+        }
+
+        h1 {
+            margin: 0; /* Remover margem do h1 */
+            font-size: 36px; /* Tamanho da fonte do h1 */
+        }
+
+        h5 {
+            margin: 0 0 20px 0; /* Espaçamento superior e inferior do h5 */
+            font-size: 18px; /* Tamanho da fonte do h5 */
+        }
+
+        .button-container {
+            display: flex; /* Usar flexbox para os botões */
+            flex-wrap: wrap; /* Permitir que os botões se movam para a linha seguinte se necessário */
+            gap: 10px; /* Espaçamento entre os botões */
+            justify-content: center; /* Centralizar os botões horizontalmente */
+            width: 100%; /* Ocupa toda a largura disponível */
+            max-width: 500px; /* Limita a largura máxima */
+            box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+        }
+
+        .button-group {
+            display: flex; /* Usar flexbox para agrupar os botões principais */
+            gap: 10px; /* Espaçamento entre os botões */
+        }
+
+        button {
+            background-color: white; /* Cor de fundo do botão */
+            color: #00A0FA; /* Cor do texto do botão */
+            border: none; /* Remover borda padrão do botão */
+            padding: 15px 30px; /* Espaçamento interno do botão */
+            font-size: 16px; /* Tamanho da fonte do botão */
+            cursor: pointer; /* Cursor em forma de mão */
+            border-radius: 5px; /* Bordas arredondadas do botão */
+            transition: background-color 0.3s; /* Transição suave para mudança de cor */
+        }
+
+        button:hover {
+            background-color: #e0e0e0; /* Cor de fundo do botão ao passar o mouse */
+        }
+
+        .back-button {
+            margin-top: 30px; /* Aumenta o espaço acima do botão Voltar */
+            background-color: white; /* Cor de fundo do botão Voltar */
+            color: #00a0fa; /* Cor do texto do botão Voltar */
+            padding: 10px 20px; /* Diminui o tamanho do botão */
+            font-size: 14px; /* Diminui o tamanho da fonte */
+        }
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <h1>CADASTROS</h1>
+    </div>
+    <h5>CLIQUE PARA ACESSAR QUAL CADASTRO DESEJA ACESSAR</h5>
+    <div class="button-container">
+        <div class="button-group">
+            <button onclick="window.location.href='telaprodutos.php'">PRODUTO</button>
+            <button onclick="window.location.href='telafornecedor.php'">FORNECEDOR</button>
+            <button onclick="window.location.href='telacliente.php'">CLIENTE</button>
+        </div>
+        <button class="back-button" onclick="window.location.href='tela2escolha.php'">Voltar</button>
+    </div>
+</body>
+</html>
+
+
+
+        
+
+
+  
