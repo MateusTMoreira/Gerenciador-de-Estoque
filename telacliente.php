@@ -66,12 +66,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     .container {
         width: 100%;
-        max-width: 450px; /* Ajustado para largura mais estreita */
+        max-width: 450px; 
         padding: 20px;
         background-color: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
-        margin: 20px; /* Adicionado para espaçamento ao redor */
+        margin: 20px; 
     }
 
     .header {
@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     .header h1 {
         color: #00A0FA;
-        font-size: 28px; /* Ajustado para uma fonte um pouco menor */
+        font-size: 28px; 
     }
 
     .form-area {
@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     .form-group label {
         display: block;
         margin-bottom: 5px;
-        font-weight: bold; /* Destaca os rótulos */
+        font-weight: bold; 
     }
 
     .form-group input {
@@ -103,13 +103,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         padding: 10px;
         border: 1px solid #ddd;
         border-radius: 4px;
-        box-sizing: border-box; /* Para garantir que o padding não afete a largura */
+        box-sizing: border-box; 
     }
 
     .button-container {
         display: flex;
-        justify-content: center; /* Centraliza os botões */
-        gap: 20px; /* Adiciona um espaço maior entre os botões */
+        justify-content: center; 
+        gap: 20px; 
         margin-top: 20px;
     }
 
@@ -122,7 +122,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         cursor: pointer;
         font-size: 16px;
         font-weight: bold;
-        width: 80px; /* Ajustado para garantir um tamanho bom para os botões */
+        width: 80px; 
     }
 
     .submit-button:hover, .back-button:hover {
