@@ -36,19 +36,32 @@
             border-radius: 5px; 
             text-decoration: none;
             transition: background-color 0.3s;
+            margin: 5px; /* Adicionado para espaçamento entre os botões */
         }
 
         a:hover {
             background-color: #e0e0e0; 
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     </style>
 </head>
 <body>
     <div>
         <h1>SISTEMA DE INFORMAÇÃO - FARMACIA DROGA LAR</h1>
-        <h5>CLIQUE ABAIXO PARA PROSSEGUIR E FAZER LOGIN</h5>
-        <div>
+        
+        <div class="options">
+            <h5>CLIQUE ABAIXO PARA PROSSEGUIR</h5>
             <a href="login.php">FAÇA LOGIN</a>
+        </div><br>
+
+        <div>
+            <h5>CASO NÃO TENHA CONTA CLIQUE ABAIXO</h5>
+            <a href="criarconta.php">CRIAR CONTA</a>
         </div>
     </div>
 </body>
