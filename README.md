@@ -11,7 +11,3 @@ Este projeto foi desenvolvido como parte de um trabalho acadêmico do curso de *
 - **Servidor Local**: Apache (XAMPP)  
 - **Editor de Código**: Visual Studio Code  
 
-## 🛠 Configuração do Banco de Dados  
-
-1. **Instale o XAMPP** e inicie os serviços **Apache** e **MySQL**.  
-2. Acesse o **phpMyAdmin** através do navegador:  
