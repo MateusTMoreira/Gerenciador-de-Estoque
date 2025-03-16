@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
         exit();
     } else {
         // Caso o login falhe, define a mensagem de erro na variável de sessão
-        $_SESSION['erro_login'] = "Acesso negado!"; // Mensagem para login incorreto
+        $_SESSION['erro_login'] = "Informações incorretas!"; // Mensagem para login incorreto
     }
 
     // Redireciona após o POST para evitar reenviar o formulário ao atualizar a página
