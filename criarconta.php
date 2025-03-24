@@ -148,10 +148,8 @@ $conn->close();
                 echo $mensagem;
             }
             ?>
-
+        </div><br>
         <a href="index.php">Voltar para o login</a>
-        </div>
-        <br>
         
     </div>
 </body>

@@ -13,7 +13,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
+            flex-direction: column;
         }
 
         .container {
@@ -23,6 +24,7 @@
             padding: 20px;
             width: 300px;
             text-align: center;
+            
         }
 
         h1 {
@@ -55,6 +57,17 @@
         a {
             text-decoration: none;
         }
+
+        #back {
+            color: #00A0FA;
+           display: block;
+           text-align: center;
+           margin-top: 20px;
+           transition: color 0.3s ease;
+        }
+        #back:hover {
+            color: #007acc; 
+        }
     </style>
 </head>
 <body>
@@ -69,6 +82,7 @@
             </a>
         </div>
     </div>
+    <a href="login.php" id="back">Voltar para login</a>
 </body>
 </html>
 
