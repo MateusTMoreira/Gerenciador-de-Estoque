@@ -143,6 +143,11 @@ a:hover {
             color: red;
             text-align: center;
             margin-top: 10px;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .fade-out {
+            opacity: 0;
         }
     </style>
 </head>
@@ -172,5 +177,21 @@ a:hover {
 
         <a class="voltar-login" href="index.php">Voltar para criar sua conta</a>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const errorMessages = document.querySelectorAll('.error-message');
+    
+        errorMessages.forEach(errorMessage => {
+        setTimeout(() => {
+            errorMessage.classList.add('fade-out');
+            
+            setTimeout(() => {
+                errorMessage.remove();
+            }, 500);
+        }, 2500);
+            });
+                });
+    </script>
 </body>
 </html>
