@@ -189,7 +189,7 @@ a:hover {
             setTimeout(() => {
                 errorMessage.remove();
             }, 500);
-        }, 2500);
+        }, 1000);
             });
                 });
     </script>
